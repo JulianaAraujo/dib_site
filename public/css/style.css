@@ -1,0 +1,84 @@
+.bg-light{
+  color: #ddf1dd !important;
+}
+
+
+.d-block{
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#logo{
+  height: 50px;
+}
+
+#nav{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #ddf1dd;
+  
+}
+
+#navbarNav{
+  
+  display: inline-block ;
+  line-height: inherit;
+  justify-content: center;
+}
+
+.navbar-nav li{
+  padding-left: 30px;
+  font-size: 25px;
+  background-attachment: fixed;
+}
+.nav-link{
+  color: black !important;
+  
+  text-transform: uppercase;
+}
+
+.nav-link:hover{
+  background-color: teal;
+}
+
+#comochegar>h2{
+  padding-bottom: 5px;
+}
+
+#comochegar{
+  padding-top: 40px;
+  
+}
+
+.imageCroqui{
+  display: flex;
+  
+  height: 667px;
+  width: 100%;
+  background-image: url(../images/croqui.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+#vias{
+  background-color: #ddf1dd;
+}
+.dadosVias{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-color: #96e096;
+  
+}
+.dadosVias>div{
+  display: flex;
+ justify-content: center;
+}
+
+.dadosVias>div>p{
+  font-size: 20px;
+  font-weight: bolder;
+}
