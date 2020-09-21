@@ -14,25 +14,18 @@
 }
 
 #nav{
-  position: fixed;
-  width: 100%;
-  z-index: 1;
+  
   background-color: #ddf1dd;
   
 }
 
 #navbarNav{
   
-  display: inline-block ;
+ 
   line-height: inherit;
   justify-content: center;
 }
 
-.navbar-nav li{
-  padding-left: 30px;
-  font-size: 25px;
-  background-attachment: fixed;
-}
 .nav-link{
   color: black !important;
   
@@ -43,14 +36,6 @@
   background-color: teal;
 }
 
-#comochegar>h2{
-  padding-bottom: 5px;
-}
-
-#comochegar{
-  padding-top: 40px;
-  
-}
 
 .imageCroqui{
   display: flex;
@@ -81,4 +66,33 @@
 .dadosVias>div>p{
   font-size: 20px;
   font-weight: bolder;
+}
+
+
+
+@media (min-width: 700px){
+  
+.navbar-nav li{
+  padding-left: 30px;
+  font-size: 25px;
+  /* background-attachment: fixed; */
+}
+
+#comochegar>h2{
+  padding-bottom: 15px;
+}
+
+#comochegar{
+  padding-top: 60px;
+  
+}
+}
+
+@media(max-width: 800px){
+  .duas-colunas>div{
+    width: 100%;
+  }
+  .imageCroqui{
+    height: 150px;
+  }
 }
