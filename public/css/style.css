@@ -38,20 +38,19 @@
 .imageCroqui{
   display: flex;
   
-  height: 667px;
-  width: 100%;
-  background-image: url(../images/croqui.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  
 }
+
+.imageCroqui>img{
+  align-items: center;
+}
+
 #vias{
   background-color: #ddf1dd;
   
 }
 
-#historia{
-  padding-top: 35px;
+#sobre{
+  
   background-color: #ddf1dd;
 }
 
@@ -85,6 +84,15 @@ footer{
   background-color: #96e096;
 }
 
+.texto{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.livro{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 @media (min-width: 700px){
   
@@ -101,9 +109,20 @@ footer{
 }
 
 
+#sobre{
+  padding-top: 75px;
+  
+  
+}
+
+.historiaLivro{
+  
+  
+}
+
 
 #duas-colunas>div>h2{
-  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #comochegar{
@@ -119,10 +138,13 @@ footer{
   .duas-colunas>div{
     width: 100%;
   }
+  
+
 
 #lista-prest{
   display: flex;
   flex-direction: column;
  
 
+}
 }
