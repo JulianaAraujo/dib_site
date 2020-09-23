@@ -249,9 +249,9 @@
             </div>
         </section>
         <section id="queroPraticar">
-            <div class="container">
+            <div class="container" id="queroPrat">
                 <div class="titulo text-center">
-                    <h1>Quero Praticar</h1><br>
+                    <h1>Quero Praticar</h1>
                 </div>
                 <div class="descricao text-center">
                     <h4>
@@ -262,7 +262,7 @@
 
         </section>
         <section id="contato">
-          <div class="container py-5">
+          <div class="container">
               <div class="row">
                   <div class="col-md-12">
                       <form>
@@ -277,8 +277,12 @@
                               <input type="text" name="email" id="email" class="form-control"/>
                           </div>
                           <div class="form-group">
+                            <label for="telefone">WhatsApp</label>
+                            <input type="text" name="telefone" id="telefone" class="form-control"/>
+                        </div>
+                          <div class="form-group">
                               <label for="mensagem">Mensagem</label>
-                              <textarea name="mensagem" id="mensagem" class="form-control" rows="5"></textarea>
+                              <textarea name="mensagem" id="mensagem" class="form-control" rows="4"></textarea>
                           </div>
                           <button class="btn btn-primary">Enviar</button>
                       </form>
