@@ -98,7 +98,7 @@ footer{
   
 .navbar-nav li{
   padding-left: 30px;
-  font-size: 25px;
+  font-size: 20px;
   /* background-attachment: fixed; */
 }
 
@@ -116,7 +116,8 @@ footer{
 }
 
 .historiaLivro{
-  
+  display: flex;
+  padding-top: 20px;
   
 }
 
@@ -124,6 +125,8 @@ footer{
 #duas-colunas>div>h2{
   padding-top: 20px;
 }
+
+
 
 #comochegar{
   padding-top: 30px;
